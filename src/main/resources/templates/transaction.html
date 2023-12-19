@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1 ">
+    <title>Bank Management System</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+
+<!--<th:block th:include="nav-bar"></th:block>-->
+<div align="center">
+    <h1 th:text="${text} +' '+'Transaction'"></h1>
+<!--    <form th:action="@{/saveTransaction}" th:object="${transaction}" method="post">-->
+<!--        <input type="hidden" th:field="*{id}" >-->
+<!--        <input type="text" th:value="${genTransactionNumber}" name="transactionNum" readonly>-->
+<!--        <input type="text" th:field="*{transactionName}" placeholder="Transaction Name">-->
+<!--        <select th:field="*{clients}">-->
+<!--            <option th:each="client:${clientsList}" th:value="${client.id}" th:text="${client.fullName}"></option>-->
+<!--        </select>-->
+<!--        <select th:field="*{transactionTypes}">-->
+<!--            <option th:each="transactionTpyes:${transactionTypesList}" th:value="${transactionTpyes.id}" th:text="${transactionTpyes.transactionTypeName}"></option>-->
+<!--        </select>-->
+<!--        <select th:field="*{ECurrency}">-->
+<!--            <option value="RWF">RWF</option>-->
+<!--            <option value="USD">USD</option>-->
+<!--            <option value="EURO">EURO</option>-->
+<!--        </select>-->
+<!--        <button type="submit" th:text="${text}"></button>-->
+<!--    </form>-->
+    <h1>Transaction List</h1>
+    <!--			<button><a th:href="@{/showNewTransactionForm}">Add Transaction</a></button>-->
+    <table>
+        <thead>
+        <tr>
+<!--            <th>Account</th>-->
+            <th>Time</th>
+            <th>E Type</th>
+            <th>Amount</th>
+
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="transaction:${listTransaction}">
+<!--            <td th:text="${transaction.account}"></td>-->
+            <td th:text="${transaction.timeOfTransaction}"></td>
+            <td th:text="${transaction.EType}"></td>
+            <td th:text="${transaction.amount}"></td>
+            <td><a th:href="@{/showFormForUpdateTransaction/{id}(id=${transaction.id})}">Update</a>
+                <a th:href="@{/deleteTransaction/{id}(id=${transaction.id})}">Delete</a>
+            <a th:href="@{/deleteTransaction/{id}(id=${transaction.id})}">Details</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>

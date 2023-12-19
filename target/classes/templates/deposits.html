@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1 ">
+    <title>Bank Management System</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+
+<!--<th:block th:include="nav-bar"></th:block>-->
+<div align="center">
+    <h1 th:text="${text} +' '+'Account'"></h1>
+
+    <form th:action="@{/deposits}" th:object="${account}"  >
+        <input type="text" name="accNum">
+        <button type="submit">Search</button>
+    </form>
+
+    <form th:action="@{/deposit}" th:object="${transaction}" method="post">
+        <input type="text"  name="accNum" readonly th:field="*{amount}">
+        <input type="text" readonly th:field="*{account.accountName}">
+        <input type="text" readonly th:field="*{account.accountTypes.accountTypeName}">
+        <input type="text" readonly th:field="*{account.ECurrency}">
+        <input type="text" readonly th:field="*{account.balance}">
+    </form>
+    <form th:action="@{/completeDeposit}" th:object="${transaction}" method="post">
+        <select th:field="*{EType}" hidden="hidden">
+            <option value="DEPOSIT">DEPOSIT</option>
+        </select>
+        <input type="number"  name="accNum" th:field="*{amount}" placeholder="Amount">
+        <button type="submit">Complete Transaction</button>
+    </form>
+
+</div>
+</body>
+</html>

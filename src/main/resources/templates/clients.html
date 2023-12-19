@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1 ">
+    <title>Bank Management System</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+
+<!--<th:block th:include="nav-bar"></th:block>-->
+<div align="center">
+    <h1 th:text="${text} +' '+'Clients'"></h1>
+    <form th:action="@{/saveClients}" th:object="${clients}" method="post">
+        <input type="hidden" th:field="*{id}" >
+        <input type="text" th:field="*{fullName}" placeholder="Clients Full Name">
+        <input type="text" th:field="*{nationalId}" placeholder="National Id">
+        <input type="email" th:field="*{email}" placeholder="Email">
+        <input type="text" th:field="*{phoneNumber}" placeholder="Clients Full Name">
+        <input type="date" th:field="*{dateOfBirth}" placeholder="Date of Birth">
+        <button type="submit" th:text="${text}"></button>
+    </form>
+    <h1>Clients List</h1>
+    <!--			<button><a th:href="@{/showNewClientsForm}">Add Clients</a></button>-->
+    <table>
+        <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>ID</th>
+            <th>Date Of Birth</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="clients:${listClients}">
+            <td th:text="${clients.fullName}"></td>
+            <td th:text="${clients.nationalId}"></td>
+            <td th:text="${clients.dateOfBirth}"></td>
+            <td th:text="${clients.email}"></td>
+            <td th:text="${clients.phoneNumber}"></td>
+            <td><a th:href="@{/showFormForUpdateClients/{id}(id=${clients.id})}">Update</a>
+                <a th:href="@{/deleteClients/{id}(id=${clients.id})}">Delete</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>
