@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3dbb8b0d-08cf-4c28-a358-d8d4249c1b21" name="Changes" comment="ALl good" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="user" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2YlKiKCHAofjrOic7fcUKyquTkm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "766391e1",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/HP/Documents/workspace-spring-tool-suite-4-4.20.0.RELEASE/BankManagememtSystem",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.bankmanagememtsystem.model.enums" />
+      <recent name="com.example.bankmanagememtsystem.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\BankManagememtSystem\src\main\resources\static" />
+      <recent name="C:\Users\HP\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\BankManagememtSystem\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.bankmanagememtsystem.service.interfaces" />
+      <recent name="com.example.bankmanagememtsystem.service.implementation" />
+      <recent name="com.example.bankmanagememtsystem.controller" />
+      <recent name="com.example.bankmanagememtsystem.repository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BankManagememtSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="BankManagememtSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bankmanagememtsystem.BankManagememtSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dbb8b0d-08cf-4c28-a358-d8d4249c1b21" name="Changes" comment="" />
+      <created>1701094857314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701094857314</updated>
+      <workItem from="1701094858414" duration="2979000" />
+      <workItem from="1701153249279" duration="22245000" />
+      <workItem from="1701239887311" duration="11615000" />
+      <workItem from="1701286295433" duration="17384000" />
+      <workItem from="1701392809109" duration="4609000" />
+      <workItem from="1701423861209" duration="9499000" />
+      <workItem from="1701549622593" duration="16000" />
+      <workItem from="1701604326440" duration="1291000" />
+      <workItem from="1701617263872" duration="637000" />
+      <workItem from="1701701414500" duration="807000" />
+      <workItem from="1701764086926" duration="1216000" />
+      <workItem from="1701988678795" duration="1611000" />
+      <workItem from="1702460424351" duration="599000" />
+      <workItem from="1702473419151" duration="1617000" />
+      <workItem from="1702482683975" duration="675000" />
+      <workItem from="1702491159241" duration="1387000" />
+      <workItem from="1702523117098" duration="2072000" />
+      <workItem from="1702537998128" duration="4031000" />
+      <workItem from="1702545538752" duration="1038000" />
+      <workItem from="1702885966514" duration="549000" />
+      <workItem from="1702979816674" duration="331000" />
+      <workItem from="1702980175454" duration="104000" />
+      <workItem from="1702980298310" duration="367000" />
+    </task>
+    <task id="LOCAL-00001" summary="ALl good">
+      <option name="closed" value="true" />
+      <created>1702979949359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702979949359</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ALl good">
+      <option name="closed" value="true" />
+      <created>1702979970025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702979970025</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="HIGHLIGHTERS">
+                <map>
+                  <entry key="CURRENT_BRANCH" value="false" />
+                  <entry key="MERGE_COMMITS" value="false" />
+                  <entry key="MY_COMMITS" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="RELOAD_CONTEXT" value="false" />
+    <MESSAGE value="ALl good" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALl good" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/bankmanagememtsystem/controller/AccountController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
